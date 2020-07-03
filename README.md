@@ -78,7 +78,7 @@ Se observa como con un nivel de SNR de -2 el ruido es mayor que con un nivel de 
 Se utilizó el método `welch` para obener la densidad espectral de la potencia de las señales.
 
 <p align="center">
-<img src="densidadEspectral.png" width="550" />
+<img src="" width="550" />
 <br>
 </p>
 
