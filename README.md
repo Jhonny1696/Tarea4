@@ -46,6 +46,48 @@ Figura 1. Señal sinusoidal que funcionará como onda portadora.
 <br>
 Figura 1. Señal sinusoidal que funcionará como onda portadora.
 </p>
+
 ## 4. Densidad espectral de potencia de la señal con el método de Welch, antes y después del canal ruidoso
+
+<p align="center">
+<img src="desnsidadEspectral.png" width="550" />
+<br>
+Figura 1. Señal sinusoidal que funcionará como onda portadora.
+</p>
+
+<p align="center">
+<img src="desnsidadEspectral con -1.png" width="550" />
+<br>
+Figura 1. Señal sinusoidal que funcionará como onda portadora.
+</p>
+
+<p align="center">
+<img src="desnsidadEspectral con 0.png" width="550" />
+<br>
+Figura 1. Señal sinusoidal que funcionará como onda portadora.
+</p>
+
+<p align="center">
+<img src="desnsidadEspectral con 1.png" width="550" />
+<br>
+Figura 1. Señal sinusoidal que funcionará como onda portadora.
+</p>
+
+<p align="center">
+<img src="desnsidadEspectral con 2.png" width="550" />
+<br>
+Figura 1. Señal sinusoidal que funcionará como onda portadora.
+</p>
+
+<p align="center">
+<img src="desnsidadEspectral con 3.png" width="550" />
+<br>
+Figura 1. Señal sinusoidal que funcionará como onda portadora.
+</p>
+
+
+
+
+
 ## 5. Demodular y decodificar la señal y hacer un conteo de la tasa de error de bits
 ## 6. Grafica BER versus SNR
