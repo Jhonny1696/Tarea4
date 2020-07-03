@@ -24,6 +24,12 @@ Con los primeros 15 bits del archivo `bits10k.csv`, se obtiene la señal modulad
 Para obtener este resultado se procedió de la siguiente forma. Se cargó los bits proporcionados en un obketo iterable utilizando el metodo `genfromtext()`, se definió la frecuencia de la onda portadora en 5 kHz y la frecuencia de muestreo en 250 kHz. Para crear la señal, se definieron estos parámetros y se creó un objeto iterable de tipo linspace que se ajusta a los mismos con 0 en todos sus elementos. Luego, en cada espacio de un periodo se sumó la señal sinusoidal asociada al bit correspondiente.
 
 ## 2. Potencia promedio de la señal modulada generada
+
+Para hallar la potencia promedio se basa en la formula 
+
+<img src="https://latex.codecogs.com/svg.latex?\small&space;P_{sin}&space;=&space;\frac{1}{2T}\int_{T}^{-T}&space;x(t)^2dt" title="\small P_{sin} = \frac{1}{2T}\int_{T}^{-T} x(t)^2dt" />
+
+A nivel de código, se utilizó el metodo `integrate.trapz` para integrar la variable de la señal al cuadrado. El resultado es <img src="https://latex.codecogs.com/svg.latex?\inline&space;\small&space;P_{sin}&space;=&space;0,49" title="\small P_{sin} = 0,49" />.
 ## 3. Canal ruidoso del tipo AWGN con una relación señal a ruido (SNR) desde -2 hasta 3 dB
 
 <p align="center">
