@@ -1,11 +1,20 @@
 # Tarea4
 
 ## 1. Esquema de modulación BPSK
+En el esquema BPSK se cambia la fase de la onda portadora ante el valor del bit que se quiera transmitir. Como onda portadora se utilizó una función senoidal con la siguiente forma: 
 
 <p align="center">
 <img src="portadora.png" width="550" />
 <br>
-</p>  
+</p> 
+
+Ante la llegada de un bit 0 le corresponde un desfase de 0 grados y  ante la llegada de un bit 1 el desfase correspondiente es de 180 grados.
+
+<img src="https://latex.codecogs.com/svg.latex?\small&space;s_0(t)&space;=&space;sen(2\pi&space;f&space;t)" title="\small s_0(t) = sen(2\pi f t)" />
+<img src="https://latex.codecogs.com/svg.latex?\small&space;s_1(t)&space;=&space;sen(2\pi&space;f&space;t&space;&plus;&space;\pi)&space;=&space;-sen(2\pi&space;f&space;t)" title="\small s_1(t) = sen(2\pi f t + \pi) = -sen(2\pi f t)" />
+
+
+ 
 
 <p align="center">
 <img src="Tx.png" width="550" />
