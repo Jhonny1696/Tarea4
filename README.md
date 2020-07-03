@@ -32,6 +32,20 @@ Para hallar la potencia promedio se basa en la formula
 A nivel de código, se utilizó el metodo `integrate.trapz` para integrar la variable de la señal al cuadrado. El resultado es <img src="https://latex.codecogs.com/svg.latex?\inline&space;\small&space;P_{sin}&space;=&space;0,49" title="\small P_{sin} = 0,49" />.
 ## 3. Canal ruidoso del tipo AWGN con una relación señal a ruido (SNR) desde -2 hasta 3 dB
 
+Para simular el canal ruidoso se utiliza una distribución normal definida por la media <img src="https://latex.codecogs.com/svg.latex?\inline&space;\small&space;\mu&space;=&space;0" title="\small \mu = 0" /> y por la desviación estandard 
+
+<img src="https://latex.codecogs.com/svg.latex?\small&space;\sigma&space;=&space;\sqrt{P_{n}}" title="\small \sigma = \sqrt{P_{n}}" />
+donde 
+
+<img src="https://latex.codecogs.com/svg.latex?\small&space;P_s&space;=&space;\frac{P_{sin}}{10&space;^\frac{SNR}{10}}" title="\small P_s = \frac{P_{sin}}{10 ^\frac{SNR}{10}}" />
+
+Teniendo el modelo del canal ruidoso, se definió un lista con los valores de SNR requeridos (-2 a 3) y con eso se realizó la simulación. A continuación se presentan las formas de la señal Rx resibida para cada nivel de SNR:
+
+<p align="center">
+<img src="Rx_-2.png" width="550" />
+<br>
+</p>
+
 <p align="center">
 <img src="Rx_-1.png" width="550" />
 <br>
@@ -56,6 +70,8 @@ A nivel de código, se utilizó el metodo `integrate.trapz` para integrar la var
 <img src="Rx_3.png" width="550" />
 <br>
 </p>
+
+Se observa como con un nivel de SNR de -1 el ruido 
 
 ## 4. Densidad espectral de potencia de la señal con el método de Welch, antes y después del canal ruidoso
 
