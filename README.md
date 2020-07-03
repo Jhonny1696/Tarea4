@@ -39,7 +39,7 @@ donde
 
 <img src="https://latex.codecogs.com/svg.latex?\small&space;P_s&space;=&space;\frac{P_{sin}}{10&space;^\frac{SNR}{10}}" title="\small P_s = \frac{P_{sin}}{10 ^\frac{SNR}{10}}" />
 
-Teniendo el modelo del canal ruidoso, se definió un lista con los valores de SNR requeridos (-2 a 3) y con eso se realizó la simulación. A continuación se presentan las formas de la señal Rx resibida para cada nivel de SNR:
+Teniendo el modelo del canal ruidoso, se definió un lista con los valores de SNR requeridos (-2 a 3) y con eso se realizó la simulación, se le sumó el ruido a la señal que se había definido y se grafíco. A continuación se presentan las formas de la señal Rx resibida para cada nivel de SNR:
 
 <p align="center">
 <img src="Rx_-2.png" width="550" />
@@ -71,9 +71,11 @@ Teniendo el modelo del canal ruidoso, se definió un lista con los valores de SN
 <br>
 </p>
 
-Se observa como con un nivel de SNR de -1 el ruido 
+Se observa como con un nivel de SNR de -2 el ruido es mayor que con un nivel de 3, pues para valores más grandes de SNR el ruido se hace cada vez más despreciable en relaión con la señal original.
 
 ## 4. Densidad espectral de potencia de la señal con el método de Welch, antes y después del canal ruidoso
+
+Se utilizó el método `welch` para obener la densidad espectral de la potencia de las señales.
 
 <p align="center">
 <img src="densidadEspectral.png" width="550" />
