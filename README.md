@@ -78,7 +78,7 @@ Se observa como con un nivel de SNR de -2 el ruido es mayor que con un nivel de 
 Se utilizó el método `welch` para obener la densidad espectral de la potencia de las señales.
 
 <p align="center">
-<img src="" width="550" />
+<img src="densidadEspectral (1).png" width="550" />
 <br>
 </p>
 
@@ -109,9 +109,28 @@ Se utilizó el método `welch` para obener la densidad espectral de la potencia 
 
 
 ## 5. Demodular y decodificar la señal y hacer un conteo de la tasa de error de bits
+
+se utliza el producto interno de dos funciones, en este caso la primera función es la señal transmitida y la segunda es la señal portadora. 
+Por defición el producto interno de dos funciones es igual a 
+
+<img src="https://latex.codecogs.com/svg.latex?\small&space;(f,g)&space;=&space;\int_{a}^{b}f(t)g(t)dt" title="\small (f,g) = \int_{a}^{b}f(t)g(t)dt" />
+
+de esta forma, cuando el bit transmitido es 1
+
+<img src="https://latex.codecogs.com/svg.latex?\small&space;f(t)g(t)=&space;sen^2(2\pi&space;f&space;t)" title="\small f(t)g(t)= sen^2(2\pi f t)" />
+
+y cuando el bit transmitido es 0 
+
+<img src="https://latex.codecogs.com/svg.latex?\small&space;f(t)g(t)=&space;-sen^2(2\pi&space;f&space;t)" title="\small f(t)g(t)= -sen^2(2\pi f t)" />
+
+Así cuando se resiva un 1 el producto interno será positivo y cuando llega un cero el producto interno es negativo. Por esta razón se escoge un humbral igual a 0 para la decodificación de los bits.
+
 ## 6. Grafica BER versus SNR
+Se realizó la demulación para cada nivel de SNR y se calculó el error al comparar los bits transmitdos con los resividos. La gráfica del error contra el SNR se muestra a continuación:
 
 <p align="center">
 <img src="berrVsSnr.png" width="550" />
 <br>
 </p>
+
+Se observa como el nivel del error se mantiene en cero para los diferentes niveles de SNR, por lo que se puede decir que le humbral escogido es correcto.
