@@ -5,13 +5,11 @@
 <p align="center">
 <img src="portadora.png" width="550" />
 <br>
-Figura 1. Señal sinusoidal que funcionará como onda portadora.
 </p>  
 
 <p align="center">
 <img src="Tx.png" width="550" />
 <br>
-Figura 1. Señal sinusoidal que funcionará como onda portadora.
 </p>
 
 ## 2. Potencia promedio de la señal modulada generada
@@ -20,31 +18,26 @@ Figura 1. Señal sinusoidal que funcionará como onda portadora.
 <p align="center">
 <img src="Rx_-1.png" width="550" />
 <br>
-Figura 1. Señal sinusoidal que funcionará como onda portadora.
 </p>
 
 <p align="center">
 <img src="Rx_0.png" width="550" />
 <br>
-Figura 1. Señal sinusoidal que funcionará como onda portadora.
 </p>
 
 <p align="center">
 <img src="Rx_1.png" width="550" />
 <br>
-Figura 1. Señal sinusoidal que funcionará como onda portadora.
 </p>
 
 <p align="center">
 <img src="Rx_2.png" width="550" />
 <br>
-Figura 1. Señal sinusoidal que funcionará como onda portadora.
 </p>
 
 <p align="center">
 <img src="Rx_3.png" width="550" />
 <br>
-Figura 1. Señal sinusoidal que funcionará como onda portadora.
 </p>
 
 ## 4. Densidad espectral de potencia de la señal con el método de Welch, antes y después del canal ruidoso
@@ -52,37 +45,31 @@ Figura 1. Señal sinusoidal que funcionará como onda portadora.
 <p align="center">
 <img src="densidadEspectral.png" width="550" />
 <br>
-Figura 1. Señal sinusoidal que funcionará como onda portadora.
 </p>
 
 <p align="center">
 <img src="DensidadEspectral con-1.png" width="550" />
 <br>
-Figura 1. Señal sinusoidal que funcionará como onda portadora.
 </p>
 
 <p align="center">
 <img src="DensidadEspectral con0.png" width="550" />
 <br>
-Figura 1. Señal sinusoidal que funcionará como onda portadora.
 </p>
 
 <p align="center">
 <img src="DensidadEspectral con1.png" width="550" />
 <br>
-Figura 1. Señal sinusoidal que funcionará como onda portadora.
 </p>
 
 <p align="center">
 <img src="DensidadEspectral con2.png" width="550" />
 <br>
-Figura 1. Señal sinusoidal que funcionará como onda portadora.
 </p>
 
 <p align="center">
 <img src="DensidadEspectral con3.png" width="550" />
 <br>
-Figura 1. Señal sinusoidal que funcionará como onda portadora.
 </p>
 
 
@@ -92,5 +79,4 @@ Figura 1. Señal sinusoidal que funcionará como onda portadora.
 <p align="center">
 <img src="berrVsSnr.png" width="550" />
 <br>
-Figura 1. Señal sinusoidal que funcionará como onda portadora.
 </p>
